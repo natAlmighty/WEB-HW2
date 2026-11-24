@@ -1,0 +1,134 @@
+/* ===== General rules for the whole page ===== */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  background-color: #f7f3ea;
+  color: #1c2541;
+}
+
+h1 {
+  color: #e23636;
+  font-family: "Bangers", cursive;
+  font-size: 6rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+  color: #1c2541;
+  font-family: "Cinzel", serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #b8922b;
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+}
+
+p {
+  line-height: 2;
+}
+
+/* ===== Top part: the "heaven" ===== */
+.top-container {
+  background-color: #0b132b;
+  position: relative;
+  padding: 180px 0 200px 0;
+}
+
+.subtitle {
+  color: #f7f3ea;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.web-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.web-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.spider-left {
+  position: absolute;
+  left: 25%;
+  top: -60px;
+}
+
+.spider-right {
+  position: absolute;
+  right: 35%;
+  top: -100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 15%;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  bottom: 60px;
+}
+
+/* ===== Middle part ===== */
+.middle-container {
+  margin: 100px 0;
+}
+
+.subscribe {
+  font-size: 2rem;
+}
+
+.hobbies-title {
+  font-size: 1.8rem;
+}
+
+/* The grid: picture on the left, text on the right */
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  width: 60%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 3rem;
+  align-items: center;
+}
+
+.hobby-img {
+  width: 90%;
+  border-radius: 12px;
+}
+
+.small-img {
+  width: 44%;
+  border-radius: 12px;
+}
+
+.hours {
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* ===== Bottom part: footer ===== */
+.bottom-container {
+  background-color: #0b132b;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #f7f3ea;
+}
